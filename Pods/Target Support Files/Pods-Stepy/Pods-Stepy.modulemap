@@ -1,0 +1,6 @@
+framework module Pods_Stepy {
+  umbrella header "Pods-Stepy-umbrella.h"
+
+  export *
+  module * { export * }
+}
