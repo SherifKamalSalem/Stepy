@@ -51,5 +51,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Stepy needs your location to track your run</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Stepy needs your location to track your run</string>
 </dict>
 </plist>
