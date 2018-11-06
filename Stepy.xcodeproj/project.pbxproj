@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FE762AAF2613BB9B46109AD /* Pods_Stepy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D93119E5BFCF57E594F73E5 /* Pods_Stepy.framework */; };
 		422301522190200600916080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422301512190200600916080 /* AppDelegate.swift */; };
 		422301542190200600916080 /* BeginRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422301532190200600916080 /* BeginRunVC.swift */; };
 		422301562190200600916080 /* RunLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422301552190200600916080 /* RunLogVC.swift */; };
@@ -16,9 +17,11 @@
 		42E381852190B4B300684B11 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E381842190B4B300684B11 /* LocationVC.swift */; };
 		42E381872190B7E900684B11 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E381862190B7E900684B11 /* CurrentRunVC.swift */; };
 		42E381892190CDE000684B11 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E381882190CDE000684B11 /* Extensions.swift */; };
+		42E6A67E21924241005C42AA /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A67D21924241005C42AA /* Run.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A12CE542D5F12AE992D4C56 /* Pods-Stepy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stepy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stepy/Pods-Stepy.debug.xcconfig"; sourceTree = "<group>"; };
 		4223014E2190200500916080 /* Stepy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stepy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422301512190200600916080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		422301532190200600916080 /* BeginRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginRunVC.swift; sourceTree = "<group>"; };
@@ -30,6 +33,9 @@
 		42E381842190B4B300684B11 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		42E381862190B7E900684B11 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
 		42E381882190CDE000684B11 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		42E6A67D21924241005C42AA /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		4A527180E4AE27B914EF77C4 /* Pods-Stepy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stepy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stepy/Pods-Stepy.release.xcconfig"; sourceTree = "<group>"; };
+		5D93119E5BFCF57E594F73E5 /* Pods_Stepy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stepy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE762AAF2613BB9B46109AD /* Pods_Stepy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,8 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				422301502190200500916080 /* Stepy */,
-				4223015A2190200800916080 /* Assets.xcassets */,
 				4223014F2190200500916080 /* Products */,
+				7170F07E172C91D5031D88C8 /* Pods */,
+				A020CF07CDA999D160146014 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +86,7 @@
 		42E3817D2190B3EB00684B11 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4223015A2190200800916080 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 		42E381822190B43A00684B11 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				42E6A67D21924241005C42AA /* Run.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,6 +142,23 @@
 			path = "Support Files";
 			sourceTree = "<group>";
 		};
+		7170F07E172C91D5031D88C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A12CE542D5F12AE992D4C56 /* Pods-Stepy.debug.xcconfig */,
+				4A527180E4AE27B914EF77C4 /* Pods-Stepy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A020CF07CDA999D160146014 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D93119E5BFCF57E594F73E5 /* Pods_Stepy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422301622190200800916080 /* Build configuration list for PBXNativeTarget "Stepy" */;
 			buildPhases = (
+				8BB8FC1894EF7028BCD863E1 /* [CP] Check Pods Manifest.lock */,
 				4223014A2190200500916080 /* Sources */,
 				4223014B2190200500916080 /* Frameworks */,
 				4223014C2190200500916080 /* Resources */,
+				61D585646D4C13E6DC584FB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,6 +227,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		61D585646D4C13E6DC584FB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stepy/Pods-Stepy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stepy/Pods-Stepy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BB8FC1894EF7028BCD863E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stepy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4223014A2190200500916080 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -208,6 +286,7 @@
 				422301562190200600916080 /* RunLogVC.swift in Sources */,
 				42E381852190B4B300684B11 /* LocationVC.swift in Sources */,
 				422301522190200600916080 /* AppDelegate.swift in Sources */,
+				42E6A67E21924241005C42AA /* Run.swift in Sources */,
 				422301542190200600916080 /* BeginRunVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +431,7 @@
 		};
 		422301632190200800916080 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A12CE542D5F12AE992D4C56 /* Pods-Stepy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,6 +449,7 @@
 		};
 		422301642190200800916080 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A527180E4AE27B914EF77C4 /* Pods-Stepy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
