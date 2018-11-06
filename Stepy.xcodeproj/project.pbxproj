@@ -18,6 +18,7 @@
 		42E381872190B7E900684B11 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E381862190B7E900684B11 /* CurrentRunVC.swift */; };
 		42E381892190CDE000684B11 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E381882190CDE000684B11 /* Extensions.swift */; };
 		42E6A67E21924241005C42AA /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A67D21924241005C42AA /* Run.swift */; };
+		42E6A68021924D7C005C42AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A67F21924D7C005C42AA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		42E381862190B7E900684B11 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
 		42E381882190CDE000684B11 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		42E6A67D21924241005C42AA /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		42E6A67F21924D7C005C42AA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4A527180E4AE27B914EF77C4 /* Pods-Stepy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stepy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stepy/Pods-Stepy.release.xcconfig"; sourceTree = "<group>"; };
 		5D93119E5BFCF57E594F73E5 /* Pods_Stepy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stepy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,6 +104,7 @@
 		42E3817F2190B40D00684B11 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				42E6A67F21924D7C005C42AA /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				422301522190200600916080 /* AppDelegate.swift in Sources */,
 				42E6A67E21924241005C42AA /* Run.swift in Sources */,
 				422301542190200600916080 /* BeginRunVC.swift in Sources */,
+				42E6A68021924D7C005C42AA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
