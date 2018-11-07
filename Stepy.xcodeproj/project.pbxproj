@@ -19,6 +19,9 @@
 		42E381892190CDE000684B11 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E381882190CDE000684B11 /* Extensions.swift */; };
 		42E6A67E21924241005C42AA /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A67D21924241005C42AA /* Run.swift */; };
 		42E6A68021924D7C005C42AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A67F21924D7C005C42AA /* Constants.swift */; };
+		42E6A6822192505E005C42AA /* RunLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A6812192505E005C42AA /* RunLogCell.swift */; };
+		42E6A6842192737B005C42AA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A6832192737B005C42AA /* Location.swift */; };
+		42E6A68621927B3E005C42AA /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A68521927B3E005C42AA /* RealmConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		42E381882190CDE000684B11 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		42E6A67D21924241005C42AA /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
 		42E6A67F21924D7C005C42AA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		42E6A6812192505E005C42AA /* RunLogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogCell.swift; sourceTree = "<group>"; };
+		42E6A6832192737B005C42AA /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		42E6A68521927B3E005C42AA /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
 		4A527180E4AE27B914EF77C4 /* Pods-Stepy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stepy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stepy/Pods-Stepy.release.xcconfig"; sourceTree = "<group>"; };
 		5D93119E5BFCF57E594F73E5 /* Pods_Stepy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stepy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -105,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				42E6A67F21924D7C005C42AA /* Constants.swift */,
+				42E6A68521927B3E005C42AA /* RealmConfig.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				422301572190200600916080 /* Main.storyboard */,
+				42E6A6812192505E005C42AA /* RunLogCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				42E6A67D21924241005C42AA /* Run.swift */,
+				42E6A6832192737B005C42AA /* Location.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -286,10 +295,13 @@
 			files = (
 				42E381872190B7E900684B11 /* CurrentRunVC.swift in Sources */,
 				42E381892190CDE000684B11 /* Extensions.swift in Sources */,
+				42E6A6842192737B005C42AA /* Location.swift in Sources */,
 				422301562190200600916080 /* RunLogVC.swift in Sources */,
 				42E381852190B4B300684B11 /* LocationVC.swift in Sources */,
 				422301522190200600916080 /* AppDelegate.swift in Sources */,
 				42E6A67E21924241005C42AA /* Run.swift in Sources */,
+				42E6A6822192505E005C42AA /* RunLogCell.swift in Sources */,
+				42E6A68621927B3E005C42AA /* RealmConfig.swift in Sources */,
 				422301542190200600916080 /* BeginRunVC.swift in Sources */,
 				42E6A68021924D7C005C42AA /* Constants.swift in Sources */,
 			);
